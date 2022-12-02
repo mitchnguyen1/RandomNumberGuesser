@@ -17,10 +17,11 @@ guess.addEventListener('click', ()=>{
     let ans = document.getElementsByClassName('ans')[0];
     let temp = ans.value;
     
-    test: if(temp < 0 || temp > 25){
+    test: if(temp <= 0 || temp > 25 ){
         error.innerHTML="Sorry Please Enter A Valid Number";
         error.classList.toggle('active',temp < 0 || temp > 25);
         ans.value = "";
+        console.log(typeof temp);
         break test;
     }
     else if (temp < rand){
