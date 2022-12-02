@@ -3,7 +3,7 @@ let cont = document.getElementsByClassName('continue')[0];
 
 
 back.addEventListener('click', ()=>{
-    window.location='../../src/index.html';
+    window.location='../../index.html';
 })
 
 cont.addEventListener('click', ()=>{
