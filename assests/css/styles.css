@@ -1,8 +1,14 @@
+
+
+
+/* THIS IS FOR INDEX.HTML ONLY */
+
 html,body{
     background-color: #525E75;
+    height: 100%;
 }
 
-.head {
+.title {
     text-align: center;
     color: aliceblue;
     font-size: 5.5rem;
@@ -13,7 +19,7 @@ html,body{
     margin-right: auto;
 }
 
-.start {
+.box {
     width: 40%;
     min-height: 550px;
     min-width: 550px;
@@ -29,18 +35,21 @@ html,body{
 
 
 
-.heading,.heading1{
+.heading{
     text-align: center;
 }
 
 .welcome{
-    font-size: 5rem;
+    font-size: 6rem;
+    color: rgba(246, 92, 92, 0.912);
+    margin-top: 1rem;
 }
 
-.lvl{
+.quote{
     margin: 1rem;
     font-size: 2rem;
     margin: 2rem 2rem;
+    color: #FF8787;
 }
 
 .select {
@@ -49,57 +58,15 @@ html,body{
     font-size: 1.3rem;
 }
 
-.btn1, .btn2, .btn3, .btn4, .btn5, .btn6, .btn7, .btn8, .btn9{
+.btn{
     background-color: rgba(25, 150, 208, 0.669);
-}
-
-h1{
-    color: rgba(246, 92, 92, 0.912);
+    border: 1px solid rgba(19, 115, 159, 0.669);
+    box-shadow: 2px 2px 2px #394c77;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-h3{
-    color: #FF8787;
-}
-
-.intro{
-    /* display: none; */
-}
-
-.intro.active{
-    display: none;
-}
-
-.heading1{
-    font-size: 2rem;
-}
-
-.btn2{
-    margin-top: 3.65rem;
-    font-size: 1.3rem;
-    /* centers the box */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.instruction{
-    margin-top: 2.5rem;
-    font-size: 3rem;
-    color: blue !important;
-}
-.instructions_easy{
-    display: none;
-}
-
-.instructions_easy.active{
-    display: block;
-}
-
-.first{
-    display: none;
-    margin-top: 20%;
-}
-
-.first.active{
-    display: block
+.btn:hover{
+    color: red;
+    background-color: #394c77;
 }

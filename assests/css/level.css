@@ -1,0 +1,166 @@
+
+/* THIS IS FOR (LEVEL).HTML ONLY
+    easy.html
+    medium.html
+    hard.html
+    imposs.html
+*/
+
+
+html,body{
+    background-color: #525E75;
+}
+
+.main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    width: 40%;
+    min-height: 550px;
+    min-width: 550px;
+    /*centers the box*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FAFDD6;
+    border: 4px solid #AAC4FF;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #D6EFED;
+}
+
+.heading{ text-align: center;}
+
+.title {
+    text-align: center;
+    color: aliceblue;
+    font-size: 5.5rem;
+}
+
+.quote{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 3.5rem;
+    color: #FF8787;
+}
+
+.ans{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.ans::-webkit-outer-spin-button,
+.ans::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.ans[type=number] {
+  -moz-appearance: textfield;
+}
+
+.guess{
+    background-color: rgba(25, 150, 208, 0.669);
+    border: 1px solid rgba(19, 115, 159, 0.669);
+    box-shadow: 2px 2px 2px #394c77;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.guess:hover{
+    color: red;
+    background-color: #394c77;
+}
+
+
+.wrong{
+        background-color: #FAFDD6;
+        text-align: center;
+        display: inline-block;
+        color: transparent;
+    }
+    
+.wrong.active{
+        background-color: rgba(255, 0, 0, 0.76);
+        border: 2px solid rgb(4, 3, 3);
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px rgb(108, 4, 4);
+        text-align: center;
+        display: inline-block;
+        padding: .5rem;
+        font-size: 2rem;
+        color: black;
+    }
+
+    .wrong.high{
+        background-color: rgba(106, 255, 0, 0.76);
+        border: 2px solid rgb(4, 3, 3);
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px rgb(108, 4, 4);
+        text-align: center;
+        display: inline-block;
+        padding: .5rem;
+        font-size: 2rem;
+        color: black;
+    }
+
+    
+    .wrong.low{
+        background-color: rgba(0, 4, 255, 0.76);
+        border: 2px solid rgb(4, 3, 3);
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px rgb(108, 4, 4);
+        text-align: center;
+        display: inline-block;
+        padding: .5rem;
+        font-size: 2rem;
+        color: black;
+    }
+
+.lives{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.field.active{
+        display: none;
+}
+
+
+.success {
+    display: none;
+    text-align: center;
+}
+
+.success.active {
+    display: block;
+}
+
+.welcome{
+    font-size: 6rem;
+    color: rgba(246, 92, 92, 0.912);
+    margin-top: 1rem;
+}
+.quote{
+    margin: 1rem;
+    font-size: 3rem;
+    margin: 2rem 2rem;
+    color: #FF8787;
+}
+
+.btn2{
+    background-color: rgba(25, 150, 208, 0.669);
+    border: 1px solid rgba(19, 115, 159, 0.669);
+    box-shadow: 2px 2px 2px #394c77;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.btn2:hover{
+    color: red;
+    background-color: #394c77;
+}

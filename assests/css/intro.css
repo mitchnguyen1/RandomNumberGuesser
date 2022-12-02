@@ -1,0 +1,86 @@
+
+
+/* THIS IS FOR (LEVEL_INTRO).HTML ONLY
+    easyIntro.html
+    mediumInto.html
+    hardIntro.html
+    impossIntro.html
+*/
+
+html,body{
+    background-color: #525E75;
+}
+
+.main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    width: 40%;
+    min-height: 550px;
+    min-width: 550px;
+    /*centers the box*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FAFDD6;
+    border: 4px solid #AAC4FF;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #D6EFED;
+}
+
+.title {
+    text-align: center;
+    color: aliceblue;
+    font-size: 5.5rem;
+}
+
+.instructions_easy{
+    text-align: center;
+}
+
+
+.quote{
+    margin: 1rem;
+    font-size: 3.5rem;
+    margin: 2rem 2rem;
+    color: #FF8787;
+}
+
+.instruction{
+    font-size: 4rem;
+    color: rgba(15, 153, 58, 0.912);
+}
+.select {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 1.3rem;
+}
+
+.back{
+    background-color: rgba(208, 25, 86, 0.669);
+    border: 1px solid rgba(159, 80, 19, 0.669);
+    box-shadow: 2px 2px 2px #394c77;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.back:hover{
+    color: #394c77;
+    background-color: #AAC4FF;
+}
+
+.continue{
+    background-color: rgba(25, 150, 208, 0.669);
+    border: 1px solid rgba(19, 115, 159, 0.669);
+    box-shadow: 2px 2px 2px #394c77;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.continue:hover{
+    color: red;
+    background-color: #394c77;
+}
