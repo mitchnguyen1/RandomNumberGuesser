@@ -7,5 +7,5 @@ back.addEventListener('click', ()=>{
 })
 
 cont.addEventListener('click', ()=>{
-    window.location='src/easy.html';
+    window.location='easy.html';
 })
