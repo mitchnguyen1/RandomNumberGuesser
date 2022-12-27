@@ -3,9 +3,9 @@ let cont = document.getElementsByClassName('continue')[0];
 
 
 back.addEventListener('click', ()=>{
-    window.location='../../index.html';
+    window.location='index.html';
 })
 
 cont.addEventListener('click', ()=>{
-    window.location='../../src/hard.html';
+    window.location='hard.html';
 })

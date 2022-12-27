@@ -48,6 +48,6 @@ guess.addEventListener('click', ()=>{
 })
 
 playAgain.addEventListener('click', ()=>{
-    window.location.href="../../index.html"
+    window.location.href="index.html"
 })
 

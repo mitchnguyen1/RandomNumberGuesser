@@ -6,12 +6,14 @@
 html,body{
     background-color: #525E75;
     height: 100%;
+    overflow-x: hidden;
 }
 
 .title {
     text-align: center;
     color: aliceblue;
     font-size: 5.5rem;
+    margin-top: 4rem;
 }
 .main{
     display: block;

@@ -7,15 +7,15 @@ btn.addEventListener('click',()=>{
     let value = level.value;
 
     if (value == 'easy'){
-        window.location='../../src/easyIntro.html';
+        window.location='easyIntro.html';
     }
     else if(value == 'medium'){
-        window.location='../../src/medIntro.html';
+        window.location='medIntro.html';
     }
     else if(value == 'hard'){
-        window.location='../../src/hardIntro.html';
+        window.location='hardIntro.html';
     }
     else if(value == 'impossible'){
-        window.location='../../src/impossIntro.html';
+        window.location='impossIntro.html';
     }
 });
